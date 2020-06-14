@@ -1,0 +1,34 @@
+{
+  "name": "notifications",
+  "version": "1.0.0",
+  "description": "send notifications on email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "descradar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-ipfilter": "^1.1.2",
+    "express-validator": "^6.4.0",
+    "http-errors": "^1.7.3",
+    "joi": "^14.3.1",
+    "mjml": "^4.6.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.6",
+    "nodemailer-express-handlebars": "^3.3.0",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "pug": "^2.0.4"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
